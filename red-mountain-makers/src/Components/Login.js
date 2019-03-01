@@ -3,7 +3,13 @@ import bcrypt from 'bcryptjs'
 
 
 class Login extends Component {
-
+constructor(props){
+    super(props);
+    state={
+        Email:"",
+        Password:""
+    }
+}
  
 
 login(event){
